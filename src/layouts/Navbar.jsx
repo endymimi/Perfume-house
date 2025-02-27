@@ -7,11 +7,11 @@ import menuImg from "../assets/Vector.png";
 const Navbar = () => {
   return (
     <>
-      <nav className="container mx-auto  py-[25px] md:py-[33px] px-[99px] flex justify-between items-center">
+      <nav className="container mx-auto  py-[25px] md:px[15px] lg:py-[33px] lg:px-[99px]  justify-between items-center flex">
         {/* div-1 for nav logo */}
         <div className="flex items-center gap-4">
           <img src={navlogo} alt="nav-logo" />
-          <h2 className="hidden md:block">Perfume house</h2>
+          <h2 className="hidden md:block font-[sansita] text-[28.33px] font-[700]">Perfume house</h2>
         </div>
         {/* div-2, for auth btn */}
         <div>
