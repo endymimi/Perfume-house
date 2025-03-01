@@ -11,7 +11,7 @@ const Home = () => {
            <Products/>
        </section>
 
-       <section className='border'>
+       <section className=''>
             <Cart/>
        </section>
     </main>

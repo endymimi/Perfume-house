@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const AuthBtn = () => {
   return (
     <>
-      <div className="flex gap-[34px]">
+      <div className="flex gap-[34px] mr-13">
         <button className="w-[140px] h-[61px] bg-[#E6D2FF] rounded text-[Neurial Grotesk] cursor-pointer text-[#8D34FF]">
          <Link to="/auth/sign-up">
          Login

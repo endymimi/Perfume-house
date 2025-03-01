@@ -1,3 +1,7 @@
+
+
+export const perfumeDatas = 
+
 [
     {   
         id:1,
