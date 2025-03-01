@@ -11,7 +11,7 @@ const Home = () => {
            <Products/>
        </section>
 
-       <section className=''>
+       <section className='md:ml-[35px]'> 
             <Cart/>
        </section>
     </main>
