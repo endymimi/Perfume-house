@@ -6,8 +6,8 @@ import amountImg from "../assets/Frame 1000005520.png";
 const Products = () => {
   return (
     <>
-      <main className="container mx-auto">
-        <div className="md:grid md:grid-cols-3 md:gap-y-[54px] md:gap-x-[34px] ">
+      <main className="container mx-auto ">
+        <div className= " container mx-auto md:grid md:grid-cols-3 gap-6">
           {perfumeDatas.map((perfumeData) => {
             const {
               id,
@@ -23,22 +23,22 @@ const Products = () => {
               <div key={perfumeData.id} >
                 <div className="card bg-base-100 w-[256.62px] h-[415.55px] rounded-[
 4.56px] border-[#F3F2FB] border-[
-1.14px] shadow-sm">
-  <figure>
+1.14px] shadow-sm ">
+  <figure className="">
     <img
-      className="w-55" src={perfumeData.image}
+      className="w-[335px] h-[300px] ml-12" src={perfumeData.image}
       alt="Perfume" />
   </figure>
-  <div className="card-body">
-    <h2 className=" font-HostGrotesk font-bold">{perfumeData.title}</h2>
-    <img src={perfStar} alt="Rating count" />
-    <img src={amountImg} alt="Price" />
+  <div className="card-body ">
+    <h2 className="ml-5 font-HostGrotesk font-bold">{perfumeData.title}</h2>
+    <img className="ml-5" src={perfStar} alt="Rating count" />
+    <img className="w-33 ml-5" src={amountImg} alt="Price" />
+    
     <div className="card-actions justify-end">
-      <button className="w-[220.12px] h-[40px] bg-[#8D34FF] font-poppins rounded text-[#F5F5F5] cursor-pointer text-sm"> Add to Cart</button>
+      <button className="w-[287.12px] h-[35px] ml-5 bg-[#8D34FF] font-poppins rounded-xl text-[#F5F5F5] cursor-pointer text-sm"> Add to Cart</button>
     </div>
   </div>
 </div>
-
 
               </div>
             )
