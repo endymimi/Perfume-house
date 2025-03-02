@@ -16,22 +16,20 @@ const Cart = () => {
   return (
 
     <>
-    <div className='container mx-auto'>
-    <div className= " container mx-auto w-[300px] h-[3300.59px] gap-[48.12px] top-[131.5px]">
-      <br />
-      <br />
-      <img className=' ml-2 w-45' src={cartPreview} alt="cart-preview" />
-      <br />
-     <img  className="ml-"src={imageOne} alt="first-cart" />
-     <br />
-     <img className="ml-"src={imageTwo} alt="image-2" />
-     <br />
-     <div className='flex '>
-     <img className='w-25 ' src={avent} alt= "avent for him" />
-     
-     <div className='mx-5  '>
-     
-       <img className='w-70' src={eleganza} alt="" />
+    <div className=' container mx-5'>
+      <div className=' w-hug[348px]  mx-auto'>
+        <img className='w-45' src={cartPreview} alt="cart-preview" />
+        <br />
+       <img src={imageOne} alt="first-cart" />
+       <br />
+       <img src={imageTwo} alt="image-2" />
+       <br />
+       <div className='flex '>
+       <img className='w-25' src={avent} alt= "avent for him" />
+       
+       <div className='mx-5  '>
+       
+         <img src={eleganza} alt="" />
      </div>
      
      </div>
@@ -40,27 +38,27 @@ const Cart = () => {
      <img src={aventConfirm} alt="" />
      </div>
      <br />
-     {/* You can open the modal using document.getElementById('ID').showModal() method */}
-<button className="w-76 h-[43px] bg-[#8D34FF] rounded text-[#F5F5F5] cursor-pointer text-sm" onClick={()=>document.getElementById('my_modal_4').showModal()}>Confirm Order</button>
-<dialog id="my_modal_4" className="modal">
-  <div className="modal-box  w-[518px] h-[684.47px]">
-    <div className='flex justify-between'>
-    <img src={successIcon} alt="icon" />
-    <img className='w-10 h-7' src={cross} alt="cross-icon" />
-    </div>
-    <h3 className="font-bold text-lg">Order Confirmed</h3>
-    <p>We hope you enjoy your order</p>
-    <br />
-    <div>
-      <img src= {threeImg} alt="three" />
-    </div>
-
-    <p className="py-4"></p>
-    <div className="modal-action">
-      <form method="dialog">
-        {/* if there is a button, it will close the modal */}
-        <button className=" mr-50 w-[250px] h-[40px] bg-[#8D34FF] rounded-xl text-[#F5F5F5] cursor-pointer text-sm ">Start New Order</button>
-      </form>
+      {/* You can open the modal using document.getElementById('ID').showModal() method */}
+  <button className="w-76 h-[43px] bg-[#8D34FF] rounded text-[#F5F5F5] cursor-pointer text-sm" onClick={()=>document.getElementById('my_modal_4').showModal()}>Confirm Order</button>
+  <dialog id="my_modal_4" className="modal">
+    <div className="modal-box w-8/12 max-w-xl">
+      <div className='flex justify-between'>
+      <img src={successIcon} alt="icon" />
+      <img className='w-10 h-7 my-6' src={cross} alt="cross-icon" />
+      </div>
+      <h3 className="font-bold text-lg">Order Confirmed</h3>
+      <p>We hope you enjoy your order</p>
+      <br />
+      <div>
+        <img src= {threeImg} alt="three" />
+      </div>
+  
+      <p className="py-4"></p>
+      <div className="modal-action">
+        <form method="dialog">
+          {/* if there is a button, it will close the modal */}
+          <button className="w-47 h-[50px] bg-[#8D34FF] rounded-2xl text-[#F5F5F5] cursor-pointer text-sm ">Start New Order</button>
+        </form>
       <br />
       <br />
     </div>
