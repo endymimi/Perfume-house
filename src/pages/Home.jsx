@@ -6,12 +6,12 @@ const Home = () => {
   return (
     <>
   
-    <main className='container mx-auto p-[25px] h-[3516.58px] md:px-[15px] lg:py-[33px] lg:px-[99px] md:grid grid-cols-3 gap-8'>
+    <main className='container mx-auto p-[25px]  md:px-[15px] lg:py-[33px] lg:px-[99px] md:flex grid-cols-3 gap-8'>
        <section className='col-span-2'>
            <Products/>
        </section>
 
-       <section className='md:ml-[35px] '> 
+       <section className='md:ml-[50px] mb-20 '> 
             <Cart/>
        </section>
     </main>

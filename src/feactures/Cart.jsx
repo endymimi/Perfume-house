@@ -2,17 +2,17 @@ import React from "react";
 import cartPreview from "../assets/My Cart Preview.png";
 import imageOne from "../assets/image 1.png";
 import imageTwo from "../assets/image 2.png";
-import avent from "../assets/imagep.png";
-import eleganza from "../assets/eleganza.png";
 import aventConfirm from "../assets/cart5.png";
 import successIcon from "../assets/Success Icon.png";
 import threeImg from "../assets/three.png";
 import cross from "../assets/Group2.png";
+import newcart from "../assets/new cart.png";
+
 
 const Cart = () => {
   return (
     <>
-      <div className=" container my-5 gap-6">
+      <div className=" container my-5 gap-6 ">
         <div className=" w-hug[348px]  mx-auto">
           <img className="w-45 mt-14" src={cartPreview} alt="cart-preview" />
           <br />
@@ -24,7 +24,7 @@ const Cart = () => {
           
           <br />
           <div>
-            <img src={imageOne} alt="" />
+            <img src={newcart} alt="" />
             <br />
           <img src={aventConfirm} alt="" />
           </div>
