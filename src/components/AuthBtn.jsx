@@ -4,19 +4,12 @@ import { Link } from "react-router-dom";
 const AuthBtn = () => {
   return (
     <>
-      <div className="flex gap-[34px]  ">
-        <button className="w-[140px] h-[61px] absolute right-67 bg-[#E6D2FF] rounded text-[Neurial Grotesk] cursor-pointer text-[#8D34FF]">
-         <Link to="/auth/sign-up">
-         Login
-         </Link>
-      
+      <div className="md:flex gap-[34px] ">
+        <button className="w-full md:w-[140px] h-[61px] mb-2 md:mb-0  bg-[#E6D2FF] rounded text-[Neurial Grotesk] cursor-pointer text-[#8D34FF]">
+          <Link to="/auth/sign-up">Login</Link>
         </button>
-        <button className="w-[140px] h-[61px] ml-40 bg-[#8D34FF] relative rounded text-[#F5F5F5] cursor-pointer">
-          
-          <Link to="/auth/sign-in">
-          Sign up
-          </Link>
-          
+        <button className="w-full md:w-[140px] h-[61px]  bg-[#8D34FF] rounded text-[#F5F5F5] cursor-pointer">
+          <Link to="/auth/sign-in">Sign up</Link>
         </button>
       </div>
     </>

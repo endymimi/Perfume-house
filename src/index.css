@@ -9,3 +9,10 @@
   --font-HostGrotesk: "Host Grotesk", serif;
   --font-poppins: "Poppins", serif;
 }
+.main-wrapper{
+  @apply bg-[url("./assets/signupBg.png")]
+}
+
+input{
+  @apply border-[2.5px] border-gray-300 rounded-lg
+}
