@@ -19,8 +19,8 @@ const SignUp = () => {
 
   return (
     <>
-      <main className="main-wrapper h-screen bg-cover bg-no-repeat">
-        <div className="container mx-auto pt-6 pb-10 h-screen px-60 md:pl-20  md:flex justify-center gap-15">
+      <main className="main-wrapper h-screen bg-cover">
+        <div className="container mx-auto pt-6 pb-10 px-8 md:pl-20 md:flex gap-15">
           <h1 className="text-white">logo</h1>
           <form className="bg-white p-8" onSubmit={handleSubmit(onSubmit)}>
             <h3>Get started</h3>

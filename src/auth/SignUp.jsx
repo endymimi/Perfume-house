@@ -23,7 +23,7 @@ const SignIn = () => {
   return (
     <>
       <main className="main-wrapper h-screen bg-cover">
-        <div className=" md:container mx-auto pt-6 pb-10 h-screen md:px-60 md:pl-20  md:flex md:justify-center gap-15">
+        <div>
           <div className="flex items-center mx-10 pt-10">
             <img className="w-9" src={navlogo} alt="navlogo" />
             <h2 className="text-white font-[sansita] ml-2 text-[20px] font-[700] ">
